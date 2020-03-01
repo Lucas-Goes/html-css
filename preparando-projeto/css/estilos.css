@@ -20,28 +20,46 @@ header img {
 }
 
 .container {
-    width: 1200px;
+    width: 100%;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
     background-color: aqua;
 }
 
-article {
+ #games{
+ padding: 80px 0;    
+ }
+
+ #games::after{
+     content: "";
+     display: block;
+     clear: both;
+ }
+
+article { 
     padding: 10px;
     border: 1px solid #95a4a5;
-    width: 370px;
+}
+
+@media (min-width: 800px) {
+    article{
+        width: 30%;
+        float: left;
+        margin-right: 5%;
+    }
 }
 
 article h2{
     background-color: #95a4a5;
     color: #fff;
     text-align: center;
-    line-height: 2.5  ;
     margin: -10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     margin-bottom: 0;
     font-weight: normal;
-    font-size: 28px;
+    font-size: 20px;
 }
 
 article > div{
@@ -49,3 +67,49 @@ article > div{
     font-size: 28px;
     margin: 20px 0;
 }
+
+article ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+article li {
+    text-align: center;
+}
+
+article footer {
+    text-align: center;
+}
+
+.botao{
+    display: inline-block;
+    background-color: #012700;
+    color: azure;
+    padding: 12px 16px  ;
+    text-decoration: none;
+}
+
+.botao:hover , .botao:focus{
+    background-color: rgb(17, 121, 64);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
