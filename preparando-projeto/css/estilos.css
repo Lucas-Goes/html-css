@@ -1,11 +1,16 @@
 /************************************************************************/
 /*                            base                                      */
 /************************************************************************/
+
+html{
+    font-size: 62.5%; /* 10 / 16 */
+}
+
 body {
     margin: 0;
 
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
+    font-size: 1.4rem;
 }
 
 
@@ -28,6 +33,27 @@ body {
  padding: 80px 0;    
  }
 
+ .layout-chamada{
+     padding: 80px 0;
+
+     background-color: #7ab55c
+      
+ }
+
+ .layout-depoimento{
+     padding: 60px;
+     background-color: #e7e7e7;
+ }
+
+ .layout-rodape{
+     padding: 40px 0;
+
+     background-color: #484848;
+
+     color: #fff;
+     text-align: center;
+ }
+
 
  
 /************************************************************************/
@@ -36,6 +62,8 @@ body {
 .games { 
     padding: 10px;
     border: 1px solid #95a4a5;
+
+    font-size: 1.4 rem;
 }
     .games__cabecalho {
         background-color: #95a4a5;
@@ -46,12 +74,12 @@ body {
         padding-bottom: 10px;
         margin-bottom: 0;
         font-weight: normal;
-        font-size: 20px;
+        font-size: 2em;
     }
 
     .games__preco {
         text-align: center;
-        font-size: 28px;
+        font-size: 2em;
         margin: 20px 0;
     }
 
@@ -59,6 +87,8 @@ body {
         list-style-type: none;
         padding: 0;
         margin: 20px 0;
+
+        font-size: 1em;
     }
 
     .games__caracteristica li {
@@ -68,6 +98,10 @@ body {
     .games_rodape {
         text-align: center;
     }
+
+/********************************************************/
+/*                        Botao                         */
+/********************************************************/
 
 .botao{
     display: inline-block;
@@ -91,22 +125,98 @@ body {
         background-color: #0e6400;
     }
 
-/* fim componentes */
+.botao--principal{
+
+    border-radius: 10px;
+
+    background-color: #004b86;
+}
+
+.botao--principal:hover, .botao--principal:focus{
+
+    background-color: #003b
+}
+/********************************************************/
+/*                        chamada                       */
+/********************************************************/
 
 
+.chamada {
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+.chamada__titulo{
+    margin: 0;
+
+    color: #fff;
+
+    font-size:3.375em;
+    line-height: 1;
+    text-shadow: 1px 1px #333333;
+}
+
+.chamada__subtitulo{
+    margin: 60px 0;
+
+    color: #fff;
+
+    font-size: 1.3em;
+}
 
 
+.chamada__acao{
+    font-size: 1.1em;
+}
 
+@media(min-width: 992px){
+    .chamada{
+        padding-left: 10%;
+        padding-right: 10%;
 
+        font-size: 2.2rem;
+    }
+}
 
+/********************************************************/
+/*                       Depoimento                     */
+/********************************************************/
+.depoimento{
+    font-size: 2.2rem;
+}
 
+@media(min-width: 992px){
+    .depoimento{
+        padding-left: 15%;
+        padding-right: 15%;
 
+        font-size: 2.9rem;
+    }
 
+}
 
+.depoimento > blockquote{
+    margin:0;
+    padding: 0 60px;
+ 
+    text-align: center;
+    font-size: 1em;
+}
 
+.depoimento__autor{
+    margin-top: 40px;
 
+    text-align: center;
+    font-size: 0.9191em;
+}
 
+.depoimento__autor > img{
+    border-radius: 50%;
+}
 
+.depoimento__autor > p {
+    margin-top: 10px;
+}
 
 
 
