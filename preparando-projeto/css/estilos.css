@@ -67,6 +67,11 @@ body {
  }
 
 
+ @media (max-width: 991px){
+    .layout-games .row > div{
+        margin-bottom: 40px;
+     }
+ }
  
 /************************************************************************/
 /*                            componentes                               */
