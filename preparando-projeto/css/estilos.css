@@ -22,7 +22,18 @@ body {
 .layout-cabecalho {
     height: 102px;
     border-bottom: 1px solid #ccc;
+
+    background-color: #fff;
 }
+
+.layout-cabecalho--home{
+    position: fixed;
+    top: 0;
+    left:0;
+    right:0;
+    z-index: 999;
+}
+
 
 .layout-cabecalho img {
     margin-top: 12px;
@@ -35,7 +46,8 @@ body {
 
  .layout-chamada{
      padding: 80px 0;
-
+     margin-top: 102px;
+    
      background-color: #7ab55c
       
  }
@@ -60,17 +72,37 @@ body {
 /*                            componentes                               */
 /************************************************************************/
 .games { 
+    position: relative;
+
     padding: 10px;
     border: 1px solid #95a4a5;
 
     font-size: 1.4 rem;
 }
+
+    .games--popular::after {
+        position: absolute;
+        top: -10px;
+        left: -10px;
+        
+        padding: 0 10px;
+
+        background-color: rgb(116, 24, 24);
+        color: #fff;
+
+        font-size: 0.7142em;
+        line-height: 2.5;
+
+        content: "MAIS POPULAR";
+    }
+
+
     .games__cabecalho {
         background-color: #95a4a5;
         color: #fff;
         text-align: center;
         margin: -10px;
-        padding-top: 10px;
+        padding-top: 20px;
         padding-bottom: 10px;
         margin-bottom: 0;
         font-weight: normal;
