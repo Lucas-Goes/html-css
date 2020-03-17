@@ -68,7 +68,7 @@ body {
 
 
  @media (max-width: 991px){
-    .layout-games .row > div{
+    .layout-games .row > div:not(.ultima-coluna){
         margin-bottom: 40px;
      }
  }
