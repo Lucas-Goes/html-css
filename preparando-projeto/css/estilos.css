@@ -41,6 +41,12 @@ body {
 
 }
 
+.logo-assinar {
+    position: relative;
+    left: -0.1rem;
+}
+
+
  .layout-games{
  padding: 80px 0;    
  }
@@ -280,6 +286,10 @@ body {
     margin-top: 10px;
 }
 
+.logo--assinar {
+    background-color: #ccc;
+}
+
 /********************************************************/
 /*                       Navegacao                      */
 /********************************************************/
@@ -291,6 +301,10 @@ body {
 .navegacao__menu{
     float: right;
 }
+
+.navegacao--assinatura {
+    text-align: center;
+  }
 
 /********************************************************/
 /*                       Botao-Chaveador                */
