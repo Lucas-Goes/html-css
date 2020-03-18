@@ -74,6 +74,10 @@ body {
      }
  }
  
+
+ .layout-assinatura{
+     padding: 40px 0;
+ }
 /************************************************************************/
 /*                            componentes                               */
 /************************************************************************/
@@ -148,6 +152,7 @@ body {
     padding: 12px 16px  ;
     line-height: normal;
     text-decoration: none;
+    border: none;
 }
 
 .botao:hover , .botao:focus{
@@ -170,6 +175,8 @@ body {
     border-radius: 10px;
 
     background-color: #004b86;
+
+
 }
 
 .botao--principal:hover, .botao--principal:focus{
@@ -358,4 +365,42 @@ body {
     .menu__item:last-of-type {
         padding-right: 0px;
     }
+}
+
+
+/********************************************************/
+/*                  Formulario                          */
+/********************************************************/
+.titulo-formulario{
+    margin: 0;
+    margin-bottom: 40px;
+
+    border-bottom: 1px solid #ccc;
+
+    font-size: 2.6rem;
+    font-weight: normal;
+    color: #004b86;
+}
+
+
+/********************************************************/
+/*                 Grupo-entrada                        */
+/********************************************************/
+.grupo-entrada{
+    margin-bottom: 15px;
+}
+
+.grupo-entrada > label {
+    display: block;
+
+    font-weight: bold;
+}
+
+
+/********************************************************/
+/*                Campo                                 */
+/********************************************************/
+.campo{
+    display: block;
+    width: 100%;
 }
