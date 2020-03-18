@@ -32,13 +32,51 @@
 
                 <div class="grupo-entrada">
                     <label for="CNPJ">CNPJ</label>
-                    <input id="CNPJ" type="text" class="campo">
+                    <input id="CNPJ" type="text" class="campo" required>
                 </div>
+
+                <div class="grupo-entrada">
+                    <label for="data-nascimento">Data Fundação</label>
+                    <input id="data-nascimento" type="date" class="campo" required>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-3">
+                        <div class="grupo-entrada">
+                            <label for="responsavel">Responsável</label>
+                            <input id="responsavel" type="text" class="campo" required>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="grupo-entrada">
+                            <label for="email">E-Mail</label>
+                            <input id="email" type="email" class="campo" required>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="grupo-entrada">
+                    <label for="Jogo">Jogo</label>
+                    <select id="Jogo" class="campo" required>
+                        <option>Selecione</option>
+                        <option value="1">BOTW</option>
+                        <option value="2">MAJORAS MASK</option>
+                        <option value="3">OCARINA OF TIME</option>
+                    </select>
+                </div>
+
+
+
+
 
                 <div style="text-align: center; margin-top: 40px;">
                     <input type="submit" value="Assinar o MyZelda" class="botao botao--principal"> 
                     </Input>
                 </div>
+
+                
+
+                
                 
             </form>
 
