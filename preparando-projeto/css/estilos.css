@@ -12,19 +12,16 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.4rem;
 }
-
-
-
-
 /************************************************************************/
 /*                            layout                                    */
 /************************************************************************/
 .layout-cabecalho {
     height: 102px;
     line-height: 90px; 
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid rgb(10, 42, 53);
 
-    background-color: #fff;
+    background: rgb(3, 27, 31);
+    
 }
 
 .layout-cabecalho--home{
@@ -55,7 +52,8 @@ body {
      padding: 80px 0;
      margin-top: 102px;
     
-     background-color: #7ab55c
+     background: rgb(4,25,4);
+    background: linear-gradient(110deg, rgba(4,25,4,1) 0%, rgba(9,70,39,1) 44%, rgba(13,59,5,1) 81%, rgba(18,52,3,1) 100%);
       
  }
 
@@ -162,15 +160,25 @@ body {
 }
 
 .botao:hover , .botao:focus{
-    background-color:#aaa;
+    background-color: rgba(38, 146, 156, 0.808);
     text-decoration: none;
     color: azure;
 }
 
-    .botao--assinar, .botao--login {
-        background-color: #127d00;
+    .botao--login{
+        background-color: rgba(18, 207, 224, 0.808);
+        text-decoration: none;
+        color: azure !important; 
+        
     }
 
+    .botao--assinar{
+        background-color: rgba(18, 207, 224, 0.808);
+        text-decoration: none;
+        color: rgb(28, 29, 29) ; 
+        
+    }
+    
     .botao-assinar:hover, .botao--assinar.botao:focus,
     .botao--login :hover, .botao--login.botao:focus {
         background-color: #0e6400;
@@ -287,7 +295,7 @@ body {
 }
 
 .logo--assinar {
-    background-color: #ccc;
+    background-color: rgb(204, 32, 32);
 }
 
 /********************************************************/
@@ -337,6 +345,11 @@ body {
     list-style: none;
 }
 
+.menu a{
+    color: rgb(0, 193, 213);
+}
+
+
 @media(max-width: 991px){
     .menu{
         position: fixed;
@@ -349,6 +362,7 @@ body {
         width: 200px;
         padding: 25px;
         border-right: 1px solid #eee;
+        
     
         background-color: #fbfbfb;
     }
@@ -363,6 +377,7 @@ body {
         display: block;
 
         line-height:  3;
+        
     }
 
     .menu__item--botao{
@@ -375,6 +390,7 @@ body {
     .menu__item{
         display: inline-block;
         padding-right: 20px;
+        
     }
     .menu__item:last-of-type {
         padding-right: 0px;
