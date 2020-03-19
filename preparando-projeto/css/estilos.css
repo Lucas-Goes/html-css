@@ -70,9 +70,9 @@ body {
 
  .layout-rodape{
     padding: 40px 0;
-    background-color: #484848;
+    background: rgb(3, 27, 31);
 
-    color: #fff;
+    color: rgb(13, 152, 165);
     text-align: center;
  }
 
@@ -215,7 +215,7 @@ body {
 
 .botao--principal:hover, .botao--principal:focus{
 
-    background-color: #003b
+    background-color: #055668;
 }
 
 /********************************************************/
@@ -263,7 +263,7 @@ body {
 /********************************************************/
 /*                       Depoimento                     */
 /********************************************************/
-.depoimento{
+.depoimento,.depoimento2{
     font-size: 2.2rem;
 }
 
@@ -289,7 +289,7 @@ body {
 
 }
 
-.depoimento > blockquote{
+.depoimento > blockquote, .depoimento2 > blockquote{
     position: relative;
     
     margin:0;
