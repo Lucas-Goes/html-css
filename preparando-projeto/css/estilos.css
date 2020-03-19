@@ -19,6 +19,7 @@ body {
     height: 102px;
     line-height: 90px; 
     border-bottom: 1px solid rgb(10, 42, 53);
+    border-bottom:0.5px solid rgb(95, 66, 9);
 
     background: rgb(3, 27, 31);
     
@@ -89,16 +90,13 @@ body {
  }
 
  .curiosidade{
-     height: 80px;
      background-color: rgb(3, 27, 31);
      align-items: center;
  }
 
  
  .curiosidade h2 {
-     position: relative;
      font-size: 2.5rem;
-     top: 0px;
      text-align: center;
      color: rgb(13, 152, 165);
  }
@@ -109,7 +107,9 @@ body {
     position: relative;
 
     padding: 10px;
-    border: 1px solid #95a4a5;
+    border: 1px solid #12b8c4;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
 
     font-size: 1.4 rem;
 }
@@ -121,18 +121,20 @@ body {
         
         padding: 0 10px;
 
-        background-color: rgb(116, 24, 24);
-        color: #fff;
+        background-color: rgb(207, 157, 18);
+        color: rgb(43, 43, 43);
 
         font-size: 0.7142em;
         line-height: 2.5;
+        font-weight: bold;
 
         content: "MAIS POPULAR";
     }
 
 
     .games__cabecalho {
-        background-color: #95a4a5;
+        background: rgb(0,20,24);
+        background: linear-gradient(90deg, rgba(0,20,24,1) 0%, rgba(32,70,82,1) 52%, rgba(3,59,75,1) 96%);
         color: #fff;
         text-align: center;
         margin: -10px;
@@ -141,6 +143,8 @@ body {
         margin-bottom: 0;
         font-weight: normal;
         font-size: 2em;
+        border-radius: 0%;
+        
     }
 
     .games__preco {
@@ -193,15 +197,17 @@ body {
     }
 
     .botao--assinar{
-        background-color: rgba(18, 207, 224, 0.808);
+        background-color: rgba(41, 229, 247, 0.808);
         text-decoration: none;
-        color: rgb(28, 29, 29) ; 
+        color: rgb(28, 29, 29) ;
+        border-radius: 5%; 
+        font-weight: bold;
         
     }
     
     .botao-assinar:hover, .botao--assinar.botao:focus,
     .botao--login :hover, .botao--login.botao:focus {
-        background-color: #0e6400;
+        background-color: #7097b1;
     }
 
 .botao--principal{
