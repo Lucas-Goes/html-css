@@ -61,25 +61,46 @@ body {
      background-color: #e7e7e7;
  }
 
+ .layout-depoimento2{
+    padding: 60px;
+    color:#FFF;
+    background: rgb(0,20,24);
+    background: linear-gradient(90deg, rgb(2, 43, 51) 0%, rgb(9, 91, 114) 50%, rgb(22, 90, 110) 100%);
+}
+
  .layout-rodape{
-     padding: 40px 0;
+    padding: 40px 0;
+    background-color: #484848;
 
-     background-color: #484848;
-
-     color: #fff;
-     text-align: center;
+    color: #fff;
+    text-align: center;
  }
 
 
  @media (max-width: 749px){
     .layout-games .row > div:not(.ultima-coluna){
         margin-bottom: 40px;
-     }
+    }
  }
  
 
  .layout-assinatura{
      padding: 40px 0;
+ }
+
+ .curiosidade{
+     height: 80px;
+     background-color: rgb(3, 27, 31);
+     align-items: center;
+ }
+
+ 
+ .curiosidade h2 {
+     position: relative;
+     font-size: 2.5rem;
+     top: 0px;
+     text-align: center;
+     color: rgb(13, 152, 165);
  }
 /************************************************************************/
 /*                            componentes                               */
@@ -248,7 +269,7 @@ body {
 
 @media(min-width: 992px){
 
-    .depoimento{
+    .depoimento, .depoimento2{
         font-size: 2.9rem;
     }
     .depoimento > blockquote::before{
@@ -258,6 +279,12 @@ body {
         color: rgba(0,20,24,1);
         font-size: 8em;
         content: "\201C";
+    }
+
+    .depoimento2{
+        color: rgba(0,20,24,1);
+        text-align: center;
+        color: rgb(206, 205, 205);
     }
 
 }
