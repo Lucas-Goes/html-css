@@ -482,3 +482,79 @@ body {
 
     font-size: 1.4rem;
 }
+
+/********************************************************/
+/*                Review                                */
+/********************************************************/
+
+.layout-review{
+ 
+    background: rgb(0,20,24);
+    background: linear-gradient(90deg, rgba(0,20,24,1) 0%, rgb(5, 49, 61) 50%, rgb(0, 0, 0) 100%);
+}
+
+.layout-review .container{
+    padding: 0px;
+    margin: 0px;
+    width: 99%;
+}
+
+.layout-review img{
+    max-width: 100%;
+    
+}
+
+.p--history{
+  color: #d6d6d4; 
+  font-family: 'Helvetica Neue', sans-serif; 
+  font-size: 14px; 
+  font-weight: bold;
+  line-height: 35px; 
+  margin: 0 0 24px; 
+  text-align: justify; 
+  text-justify: inter-word; 
+  text-indent: 4em;
+      
+  padding-right: 10% ;
+  padding-left: 10% ;
+}
+
+
+
+.h2--history{
+    color: rgb(101, 102, 57); 
+    font-family: 'Helvetica Neue', sans-serif; 
+    font-size: 2.5em; 
+    font-weight: bold; 
+    letter-spacing: -1px; 
+    line-height: 1; 
+    text-align: center;
+
+    padding-right: 20% ;
+    padding-left: 10% ;
+}
+
+@media(min-width: 768px){
+
+    .history{
+        margin: 0px !important;
+    
+    }
+    .p--history{
+        padding-right: 20% ;
+        padding-left: 5% ;
+        
+    }
+
+    .h2--history{
+
+        padding-right: 21% ;
+        padding-left: 5% ;
+        
+    }
+}
+
+.history{
+    margin: 10px;
+
+}
