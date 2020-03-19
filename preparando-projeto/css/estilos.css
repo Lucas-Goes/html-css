@@ -534,21 +534,22 @@ body {
     padding-left: 10% ;
 }
 
-@media(min-width: 768px){
+@media(min-width: 991px){
 
     .history{
         margin: 0px !important;
     
     }
     .p--history{
-        padding-right: 20% ;
+        padding-right: 18% ;
         padding-left: 5% ;
         
     }
 
     .h2--history{
 
-        padding-right: 21% ;
+        margin-top: 70px !important;
+        padding-right: 20% ;
         padding-left: 5% ;
         
     }
