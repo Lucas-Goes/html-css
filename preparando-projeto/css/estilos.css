@@ -93,7 +93,7 @@ body {
  .layout-assinatura{
      padding: 40px 0;
      background: rgb(1, 22, 22);
-     height: 739px;
+     
  }
 
  .curiosidade{
@@ -216,7 +216,7 @@ body {
     }
 
     .botao--assinar{
-        background-color: rgba(41, 229, 247, 0.808);
+        background-color: rgba(247, 41, 202, 0.808);
         text-decoration: none;
         color: rgb(28, 29, 29) ;
         border-radius: 5%; 
