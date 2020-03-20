@@ -15,7 +15,11 @@
             <nav class="navegacao">
                 <img src="imagens/logo.png" width="90" height= "80" alt="Zelda">
                 <div class="navegacao__menu">
-                    <button class="botao-chaveador js-botao-chaveador"></button>
+                    <button class="botao-chaveador js-botao-chaveador" onclick="abreMenu(this);animacao(this)">
+                        <div class="bar1"></div>
+                        <div class="bar2"></div>
+                        <div class="bar3"></div>
+                    </button>
 
                     <ul class="menu js-menu">
                         <li class="menu__item">
@@ -175,7 +179,6 @@
 
 
 <script src="javascript/app.js"></script>
-
 
 </body>
 </html>

@@ -386,15 +386,30 @@ body {
 /*                       Botao-Chaveador                */
 /********************************************************/
 .botao-chaveador{
-    width: 24px;
-    height: 24px;
-    border: 0;
-    
-    background: none;
-    background-image: url("../imagens/bars.png");
-
-    outline: none;
+    background-color: rgb(3, 27, 31);
+    border: none;
+    display: inline-block;
+    cursor: pointer;
 }
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: rgb(223, 22, 22);
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+  
+  .change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+  }
+  
+  .change .bar2 {opacity: 0;}
+  
+  .change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+  }
 
 @media(min-width: 992px){
     .botao-chaveador{
